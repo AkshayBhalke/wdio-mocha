@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663226350722' stop='1663226354559'>
+    <name>ts02-Blaze</name>
+    <title>ts02-Blaze</title>
+    <test-cases>
+        <test-case start='1663226350722' status='broken' stop='1663226354559'>
+            <name> get text of all header li</name>
+            <title> get text of all header li</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1663226350729' status='passed' stop='1663226354267'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='33204445-bcd8-433c-8b8a-48372b73527f-attachment.json' type='application/json' size='42'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663226354268' status='passed' stop='1663226354278'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='779a9d6e-c4f3-4ec1-ad6d-7a1f1a0c6c30-attachment.json' type='application/json' size='62'/>
+                        <attachment title='Response' source='c7126508-ce0d-45cc-bea5-eeae93c4e22b-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663226354281' status='passed' stop='1663226354558'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f823dccc-d5e4-4f48-850e-c8b0bf782f6c-attachment.png' type='image/png' size='414895'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'options')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'options')
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (/Users/akshay/Desktop/webdio/test/blazze/testfile/test.spec.js:7:10)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

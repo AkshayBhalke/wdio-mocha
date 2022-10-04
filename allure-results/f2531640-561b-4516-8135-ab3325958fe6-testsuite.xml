@@ -1,0 +1,87 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663610712734' stop='1663610720475'>
+    <name>internethuroku checkbox</name>
+    <title>internethuroku checkbox</title>
+    <test-cases>
+        <test-case start='1663610712734' status='broken' stop='1663610720475'>
+            <name>checkbox click</name>
+            <title>checkbox click</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1663610712744' status='passed' stop='1663610719874'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='58a0f084-4878-40c9-bf03-6ea5e2f51f25-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='3217ffd4-1188-4ab8-9e65-d2c8589dc026-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps>
+                        <step start='1663610712789' status='passed' stop='1663610712877'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='17ab8af4-842d-439a-be9e-cd7be35f1b67-attachment.json' type='application/json' size='50'/>
+                                <attachment title='Response' source='df22b870-7fbf-414e-928f-8960cc2d20b7-attachment.json' type='application/json' size='1536'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1663610712881' status='passed' stop='1663610719868'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='d1dc3300-dfed-4a79-b346-4b7f0d196efd-attachment.json' type='application/json' size='64'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1663610719876' status='passed' stop='1663610719883'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='670ca4d1-c949-4db1-9a88-2028b830f822-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='88620e96-6da9-4ddd-a4d9-74cf7467ae24-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663610719884' status='passed' stop='1663610720292'>
+                    <name>POST /session/:sessionId/element/a3bb1e4d-463c-4783-a12e-fa5af4c5bf18/click</name>
+                    <title>POST /session/:sessionId/element/a3bb1e4d-463c-4783-a12e-fa5af4c5bf18/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663610720293' status='passed' stop='1663610720301'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4d33991f-83c2-43fb-be52-44c42a4f7a76-attachment.json' type='application/json' size='78'/>
+                        <attachment title='Response' source='edb0794c-4e68-4f2b-891c-1a75631aefdc-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663610720303' status='passed' stop='1663610720474'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='2ea2ca40-bd33-4e03-baad-60385c01b997-attachment.png' type='image/png' size='81952'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Options must be an object</message>
+                <stack-trace>TypeError: Options must be an object
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (/Users/akshay/Desktop/webdio/test/InternetH/TESTFILE/checkbox.spec.js:12:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

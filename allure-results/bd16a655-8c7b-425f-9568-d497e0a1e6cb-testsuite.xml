@@ -1,0 +1,93 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663241517344' stop='1663241520807'>
+    <name>internethuroku checkbox</name>
+    <title>internethuroku checkbox</title>
+    <test-cases>
+        <test-case start='1663241517344' status='broken' stop='1663241520807'>
+            <name>checkbox click</name>
+            <title>checkbox click</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1663241517352' status='passed' stop='1663241520306'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='642862ae-9c45-4bce-b33c-6ac26e43dc5f-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='8da7837b-39d4-4344-bea1-644f70f07246-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps>
+                        <step start='1663241517361' status='passed' stop='1663241517396'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='66b86ee6-ad3e-420b-b650-c8126f735cce-attachment.json' type='application/json' size='50'/>
+                                <attachment title='Response' source='3c8be230-3d3b-4904-9b47-288a86de9417-attachment.json' type='application/json' size='1536'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1663241517400' status='passed' stop='1663241520295'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='6a2e5403-c2f4-4fa2-8580-ca3f1a910f37-attachment.json' type='application/json' size='64'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1663241520309' status='passed' stop='1663241520319'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e9e30649-ec25-44a8-b055-6bdab0cb3641-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='e3e3bc4f-ca9a-4a54-8eb3-0b3c2e702c3a-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663241520320' status='passed' stop='1663241520653'>
+                    <name>POST /session/:sessionId/element/216046ad-bd4e-4093-9af9-ba6471670835/click</name>
+                    <title>POST /session/:sessionId/element/216046ad-bd4e-4093-9af9-ba6471670835/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663241520653' status='passed' stop='1663241520661'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='40b97eeb-5ed0-469f-ba0e-882e1ade4e5b-attachment.json' type='application/json' size='78'/>
+                        <attachment title='Response' source='5372a25e-3e64-49f7-a052-953c2a9cb3d2-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663241520662' status='passed' stop='1663241520679'>
+                    <name>POST /session/:sessionId/element/eb56df54-a185-4bec-a5c7-5fddedd94593/click</name>
+                    <title>POST /session/:sessionId/element/eb56df54-a185-4bec-a5c7-5fddedd94593/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663241520679' status='passed' stop='1663241520806'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='c1eec0dc-727c-4062-bff6-89dd6c7f274a-attachment.png' type='image/png' size='82235'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Parameter for "url" command needs to be type of string</message>
+                <stack-trace>Error: Parameter for "url" command needs to be type of string
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (/Users/akshay/Desktop/webdio/test/InternetH/TESTFILE/test.spec.js:15:21)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

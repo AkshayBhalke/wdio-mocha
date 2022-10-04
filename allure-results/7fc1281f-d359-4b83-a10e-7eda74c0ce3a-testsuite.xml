@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663245868467' stop='1663245868618'>
+    <name>ts-01 login sample site</name>
+    <title>ts-01 login sample site</title>
+    <test-cases>
+        <test-case start='1663245868468' status='failed' stop='1663245868618'>
+            <name>login orangehrm</name>
+            <title>login orangehrm</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1663245868474' status='passed' stop='1663245868500'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='618a9067-e4a4-4610-afcb-0f126b7a58c4-attachment.json' type='application/json' size='42'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663245868500' status='passed' stop='1663245868509'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='030a8f2b-f3ce-4f0e-8f52-1e2f294220ae-attachment.json' type='application/json' size='8'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663245868510' status='passed' stop='1663245868618'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='6b6316c5-9f44-488b-bad5-cba176c79a6e-attachment.png' type='image/png' size='14894'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expect(...).equals is not a function</message>
+                <stack-trace>TypeError: expect(...).equals is not a function
+                    at Context.&lt;anonymous> (/Users/akshay/Desktop/webdio/test/basic/orange.spec.js:20:22)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

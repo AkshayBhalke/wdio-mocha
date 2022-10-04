@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664342445066' stop='1664342448599'>
+    <name>varifying the intercept</name>
+    <title>varifying the intercept</title>
+    <test-cases>
+        <test-case start='1664342445066' status='broken' stop='1664342448599'>
+            <name>get request</name>
+            <title>get request</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1664342445067' status='passed' stop='1664342448424'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='53a3fc86-96e8-4199-9081-cac4627df1be-attachment.json' type='application/json' size='33'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664342448424' status='passed' stop='1664342448598'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='0e5a8da6-6fca-44c2-be69-1a59c08e7eb8-attachment.png' type='image/png' size='175754'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.setupInterceptor is not a function</message>
+                <stack-trace>TypeError: browser.setupInterceptor is not a function
+                    at Context.&lt;anonymous> (/Users/akshay/Desktop/webdio/test/12-intercept/inter.spec.js:4:19)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

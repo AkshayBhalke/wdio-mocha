@@ -1,0 +1,87 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664184906001' stop='1664184908332'>
+    <name>amazon</name>
+    <title>amazon</title>
+    <test-cases>
+        <test-case start='1664184906002' status='broken' stop='1664184908332'>
+            <name>amazon</name>
+            <title>amazon</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1664184906002' status='passed' stop='1664184907823'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='dc9329bf-dea5-4589-bc90-c496f61f8591-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664184907824' status='passed' stop='1664184907833'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='430b31e2-369a-42bf-b665-2c4648352d6e-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='ae50a214-98cb-47c2-a609-d0ccbbdfa5e4-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664184907835' status='passed' stop='1664184907847'>
+                    <name>POST /session/:sessionId/element/7c87d373-0f64-43cb-a56d-3fbe2e5094f7/clear</name>
+                    <title>POST /session/:sessionId/element/7c87d373-0f64-43cb-a56d-3fbe2e5094f7/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664184907848' status='passed' stop='1664184907916'>
+                    <name>POST /session/:sessionId/element/7c87d373-0f64-43cb-a56d-3fbe2e5094f7/value</name>
+                    <title>POST /session/:sessionId/element/7c87d373-0f64-43cb-a56d-3fbe2e5094f7/value</title>
+                    <attachments>
+                        <attachment title='Request' source='87643ccf-32e5-47e9-8d32-525549bbfdfe-attachment.json' type='application/json' size='22'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664184907917' status='passed' stop='1664184907924'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='26ab8e6d-1d5d-46cf-b0af-96d5b0c29031-attachment.json' type='application/json' size='75'/>
+                        <attachment title='Response' source='a22eb25b-fe03-4f92-8d24-8fc38fd18145-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664184907925' status='broken' stop='1664184908332'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='f5d530e0-8053-448d-a440-6309e2b16f1a-attachment.json' type='application/json' size='60'/>
+                    </attachments>
+                    <steps>
+                        <step start='1664184907933' status='passed' stop='1664184908331'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='b4031788-8e65-443f-bd47-24379a113120-attachment.png' type='image/png' size='1176276'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid argument: invalid locator
+                  (Session info: chrome=105.0.5195.125)</message>
+                <stack-trace>invalid argument: invalid argument: invalid locator
+                  (Session info: chrome=105.0.5195.125)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (/Users/akshay/Desktop/webdio/test/03-AmazonProduct/sample.spec.js:6:22)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

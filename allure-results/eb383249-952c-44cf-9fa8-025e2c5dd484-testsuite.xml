@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664185694177' stop='1664185697360'>
+    <name>amazon</name>
+    <title>amazon</title>
+    <test-cases>
+        <test-case start='1664185694177' status='broken' stop='1664185697359'>
+            <name>amazon</name>
+            <title>amazon</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1664185694177' status='passed' stop='1664185696796'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='961c9c23-9f7c-4e38-92f4-ff335063eb87-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664185696797' status='passed' stop='1664185696808'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f94748f4-296d-451c-a576-d9b50a718e68-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='0c386197-7731-4df8-a67e-04de9d620664-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664185696812' status='passed' stop='1664185696833'>
+                    <name>POST /session/:sessionId/element/712c6c5e-365b-4697-8117-1aa490fd48c2/clear</name>
+                    <title>POST /session/:sessionId/element/712c6c5e-365b-4697-8117-1aa490fd48c2/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664185696834' status='passed' stop='1664185696891'>
+                    <name>POST /session/:sessionId/element/712c6c5e-365b-4697-8117-1aa490fd48c2/value</name>
+                    <title>POST /session/:sessionId/element/712c6c5e-365b-4697-8117-1aa490fd48c2/value</title>
+                    <attachments>
+                        <attachment title='Request' source='3d462472-6dac-498e-aa86-3681a1190b9f-attachment.json' type='application/json' size='22'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664185696892' status='broken' stop='1664185697359'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c7bff638-cf0e-4c7b-93f7-1889e73bb356-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps>
+                        <step start='1664185696911' status='passed' stop='1664185697359'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='019ea957-0432-4a41-90f3-e59efadec15f-attachment.png' type='image/png' size='927315'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>The selector ".s-suggestion'" used with strategy "css selector" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors</message>
+                <stack-trace>invalid selector: The selector ".s-suggestion'" used with strategy "css selector" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (/Users/akshay/Desktop/webdio/test/03-AmazonProduct/sample.spec.js:7:22)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

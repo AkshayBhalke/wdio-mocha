@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663223180257' stop='1663223186788'>
+    <name>ts pom first sampple</name>
+    <title>ts pom first sampple</title>
+    <test-cases>
+        <test-case start='1663223180257' status='passed' stop='1663223186787'>
+            <name>login</name>
+            <title>login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1663223180263' status='passed' stop='1663223182782'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='e77bcf5a-5c21-4ffd-b8b2-6e2d74de186a-attachment.json' type='application/json' size='81'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663223182783' status='passed' stop='1663223182789'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='b12caf1b-15b5-428c-8b40-715467ff9ea9-attachment.json' type='application/json' size='72'/>
+                        <attachment title='Response' source='e7737582-ceee-4c21-9afb-1a9efa4970fd-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

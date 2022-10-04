@@ -1,0 +1,91 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663236182412' stop='1663236194745'>
+    <name>ts02-Blaze</name>
+    <title>ts02-Blaze</title>
+    <test-cases>
+        <test-case start='1663236182412' status='broken' stop='1663236185865'>
+            <name> get text of all header li</name>
+            <title> get text of all header li</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1663236182419' status='passed' stop='1663236185864'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='82a934f0-e787-4c08-a8fd-d423c61112e4-attachment.json' type='application/json' size='62'/>
+                        <attachment title='Screenshot' source='ad5b0dcf-f486-449d-ba65-6ce33b1e2c20-attachment.png' type='image/png' size='415882'/>
+                    </attachments>
+                    <steps>
+                        <step start='1663236182421' status='passed' stop='1663236182458'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='684581b6-f95f-4a2b-89a4-bfc4acbfeb8a-attachment.json' type='application/json' size='42'/>
+                                <attachment title='Response' source='d1653490-985b-45f0-b9df-10ead2f857ab-attachment.json' type='application/json' size='2'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1663236182460' status='passed' stop='1663236185626'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'options')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'options')
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (/Users/akshay/Desktop/webdio/test/blazze/testfile/test.spec.js:8:10)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1663236185865' status='passed' stop='1663236194744'>
+            <name>heading enabled or not</name>
+            <title>heading enabled or not</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1663236185865' status='passed' stop='1663236187068'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='a14fe435-f13e-4cf9-ac0c-4c637122afe5-attachment.json' type='application/json' size='42'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663236187069' status='passed' stop='1663236187078'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3ddbb41d-698c-4df9-b78b-0cd033ea4378-attachment.json' type='application/json' size='70'/>
+                        <attachment title='Response' source='1a06f792-2292-4a9e-8e21-fe6ac72122f3-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663236187081' status='passed' stop='1663236190741'>
+                    <name>POST /session/:sessionId/element/9ac05ad8-da33-4729-8476-61c65410e42b/click</name>
+                    <title>POST /session/:sessionId/element/9ac05ad8-da33-4729-8476-61c65410e42b/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

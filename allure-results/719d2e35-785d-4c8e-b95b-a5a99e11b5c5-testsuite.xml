@@ -1,0 +1,92 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663831813540' stop='1663831817085'>
+    <name>handeling alerts in js</name>
+    <title>handeling alerts in js</title>
+    <test-cases>
+        <test-case start='1663831813540' status='broken' stop='1663831817085'>
+            <name>accept Js alert</name>
+            <title>accept Js alert</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1663831813541' status='passed' stop='1663831816886'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='8397a85b-f220-49aa-8675-3eadd9b24cb1-attachment.json' type='application/json' size='67'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663831816887' status='passed' stop='1663831816897'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='64de84c7-3abb-4b9c-9e24-d7bdfac02f33-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='720a95ed-9629-4076-a94b-feb27ffbb04a-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663831816900' status='passed' stop='1663831816905'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='92de9813-399c-48ce-bb3f-3c1150755981-attachment.json' type='application/json' size='8331'/>
+                        <attachment title='Response' source='dc7a8f9e-9e04-45ff-bd7f-f12d8c97bcfb-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663831816906' status='passed' stop='1663831816910'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4956fd8e-35fe-47c1-a0ee-e1c5391785a8-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='6aba2ff8-f8d7-42b5-98a4-558b73045299-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663831816911' status='passed' stop='1663831816948'>
+                    <name>POST /session/:sessionId/element/9c395cf1-f90e-46cd-bba2-f9a8e2165bd0/click</name>
+                    <title>POST /session/:sessionId/element/9c395cf1-f90e-46cd-bba2-f9a8e2165bd0/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663831816948' status='passed' stop='1663831816951'>
+                    <name>GET /session/:sessionId/alert/text</name>
+                    <title>GET /session/:sessionId/alert/text</title>
+                    <attachments>
+                        <attachment title='Response' source='4d3eba8c-d8da-4962-a363-4c736aec5c03-attachment.json' type='application/json' size='17'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663831816952' status='passed' stop='1663831816953'>
+                    <name>POST /session/:sessionId/alert/accept</name>
+                    <title>POST /session/:sessionId/alert/accept</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663831816954' status='passed' stop='1663831817085'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='05abd992-58a9-4937-bf26-c2162600aea4-attachment.png' type='image/png' size='123846'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>this.result.getValue is not a function</message>
+                <stack-trace>TypeError: this.result.getValue is not a function
+                    at AlertPage.getResultText (/Users/akshay/Desktop/webdio/test/09-Alerts/pageClass.js:20:27)
+                    at Context.&lt;anonymous> (/Users/akshay/Desktop/webdio/test/09-Alerts/alert.spec.js:13:43)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

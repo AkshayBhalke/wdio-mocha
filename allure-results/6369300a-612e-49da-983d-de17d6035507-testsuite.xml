@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664442248770' stop='1664442251339'>
+    <name>shadow DOM</name>
+    <title>shadow DOM</title>
+    <test-cases>
+        <test-case start='1664442248770' status='broken' stop='1664442251339'>
+            <name>shadow element</name>
+            <title>shadow element</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.61'/>
+            </parameters>
+            <steps>
+                <step start='1664442248771' status='passed' stop='1664442249178'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='126c5ee8-9858-4b10-8f6d-c5a5c34ad6f6-attachment.json' type='application/json' size='55'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664442251184' status='passed' stop='1664442251209'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9fd68a10-2c97-403f-b8dc-f3499155c631-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='1d364517-e019-473a-a215-d3426730d8b5-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664442251214' status='passed' stop='1664442251338'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='54a80bf0-6ecc-4ed2-a284-46fdfcefbc9e-attachment.png' type='image/png' size='84213'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>(intermediate value).shadow is not a function</message>
+                <stack-trace>TypeError: (intermediate value).shadow is not a function
+                    at Context.&lt;anonymous> (/Users/akshay/Desktop/webdio/test/14-shadowDom/shadow.spec.js:7:42)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

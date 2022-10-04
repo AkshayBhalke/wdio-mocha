@@ -1,0 +1,118 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664349769052' stop='1664360194089'>
+    <name>amazon</name>
+    <title>amazon</title>
+    <test-cases>
+        <test-case start='1664349769052' status='broken' stop='1664360194086'>
+            <name>amazon</name>
+            <title>amazon</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-105.0.0.0'/>
+            </parameters>
+            <steps>
+                <step start='1664349769054' status='passed' stop='1664349771103'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='eb9e6741-c006-4e41-abe8-d5b75dc95cf8-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664349771124' status='passed' stop='1664349771129'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='f657ee7a-6cec-44d6-8a5e-cfc19a88a5f2-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='1782db6b-853d-4743-820c-bd40e0c319d7-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664349771133' status='passed' stop='1664349771134'>
+                    <name>elementClear</name>
+                    <title>elementClear</title>
+                    <attachments>
+                        <attachment title='Request' source='23afbec3-032b-4ddb-adc3-881ee81ce555-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664349771136' status='passed' stop='1664349771184'>
+                    <name>elementSendKeys</name>
+                    <title>elementSendKeys</title>
+                    <attachments>
+                        <attachment title='Request' source='ba62a2ab-d010-4864-b514-b27db82a9a92-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664349773187' status='passed' stop='1664349773193'>
+                    <name>findElements</name>
+                    <title>findElements</title>
+                    <attachments>
+                        <attachment title='Request' source='b0ae3e76-256e-401d-a202-4e759a0dd812-attachment.json' type='application/json' size='147'/>
+                        <attachment title='Response' source='b40902ab-a868-48b4-a851-327896f87e9a-attachment.json' type='application/json' size='644'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664349773203' status='passed' stop='1664349773206'>
+                    <name>getElementAttribute</name>
+                    <title>getElementAttribute</title>
+                    <attachments>
+                        <attachment title='Request' source='7767a87c-ec3f-49c1-91a9-715903291b9a-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='929a0955-f291-4171-bf3c-f8bc2b7be8cd-attachment.json' type='application/json' size='20'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664349776209' status='passed' stop='1664349776214'>
+                    <name>getElementAttribute</name>
+                    <title>getElementAttribute</title>
+                    <attachments>
+                        <attachment title='Request' source='6c689d9d-684b-42b5-8b3a-02b23c60309c-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='29a8f81a-ac03-4d3a-8ac9-0cafa9be6935-attachment.json' type='application/json' size='24'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664349779220' status='passed' stop='1664349779225'>
+                    <name>getElementAttribute</name>
+                    <title>getElementAttribute</title>
+                    <attachments>
+                        <attachment title='Request' source='14f4c48f-b223-4706-b049-2a117a7fcc58-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='5bf5c455-24a9-4373-b045-fa742514f508-attachment.json' type='application/json' size='16'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664349782230' status='passed' stop='1664349782237'>
+                    <name>getElementAttribute</name>
+                    <title>getElementAttribute</title>
+                    <attachments>
+                        <attachment title='Request' source='3f685a57-9de8-43af-b98b-f4ed11f92772-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='c0fa5211-2824-4654-8f4c-f5f140ec7b44-attachment.json' type='application/json' size='24'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664349785240' status='passed' stop='1664349785241'>
+                    <name>getElementAttribute</name>
+                    <title>getElementAttribute</title>
+                    <attachments>
+                        <attachment title='Request' source='753ef60d-1efa-4c45-b7ea-da51f9edb43c-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='828fa17f-55c1-4dd6-aa79-5e6c8501e9d1-attachment.json' type='application/json' size='16'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "amazon amazon" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/akshay/Desktop/webdio/test/03-AmazonProduct/sample.spec.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "amazon amazon" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/akshay/Desktop/webdio/test/03-AmazonProduct/sample.spec.js)
+                    at createTimeoutError (/Users/akshay/Desktop/webdio/node_modules/mocha/lib/errors.js:498:15)
+                    at Test.Runnable._timeoutError (/Users/akshay/Desktop/webdio/node_modules/mocha/lib/runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (/Users/akshay/Desktop/webdio/node_modules/mocha/lib/runnable.js:246:24)
+                    at listOnTimeout (node:internal/timers:559:17)
+                    at processTimers (node:internal/timers:502:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

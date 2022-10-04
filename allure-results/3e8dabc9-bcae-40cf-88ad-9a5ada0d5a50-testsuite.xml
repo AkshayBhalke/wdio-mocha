@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663827263801' stop='1663827266315'>
+    <name>ts-01 login sample site</name>
+    <title>ts-01 login sample site</title>
+    <test-cases>
+        <test-case start='1663827263801' status='broken' stop='1663827266315'>
+            <name>login orangehrm</name>
+            <title>login orangehrm</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1663827263815' status='passed' stop='1663827266204'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='214319ac-a7bd-4c8f-a2cf-eba7b38675a0-attachment.json' type='application/json' size='81'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663827266204' status='passed' stop='1663827266315'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='81dce242-bbb5-4eb3-b6f3-abac51f573b5-attachment.png' type='image/png' size='14897'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.hrmLoginCommand is not a function</message>
+                <stack-trace>TypeError: browser.hrmLoginCommand is not a function
+                    at Context.&lt;anonymous> (/Users/akshay/Desktop/webdio/test/08-custom command/login.js:17:23)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

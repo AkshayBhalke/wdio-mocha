@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664432464694' stop='1664432648594'>
+    <name>date picker</name>
+    <title>date picker</title>
+    <test-cases>
+        <test-case start='1664432464694' status='broken' stop='1664432648592'>
+            <name>date selecting functionality</name>
+            <title>date selecting functionality</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-106.0.0.0'/>
+            </parameters>
+            <steps>
+                <step start='1664432464705' status='passed' stop='1664432648565'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='8a9e49de-a9dc-468a-b47f-425f6cffb8cf-attachment.json' type='application/json' size='62'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "date picker date selecting functionality" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/akshay/Desktop/webdio/test/13-datePicker/date.spec.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "date picker date selecting functionality" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/akshay/Desktop/webdio/test/13-datePicker/date.spec.js)
+                    at createTimeoutError (/Users/akshay/Desktop/webdio/node_modules/mocha/lib/errors.js:498:15)
+                    at Test.Runnable._timeoutError (/Users/akshay/Desktop/webdio/node_modules/mocha/lib/runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (/Users/akshay/Desktop/webdio/node_modules/mocha/lib/runnable.js:246:24)
+                    at listOnTimeout (node:internal/timers:559:17)
+                    at processTimers (node:internal/timers:502:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

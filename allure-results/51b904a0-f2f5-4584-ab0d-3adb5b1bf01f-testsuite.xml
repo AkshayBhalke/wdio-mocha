@@ -1,0 +1,77 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663831548529' stop='1663831555292'>
+    <name>handeling alerts in js</name>
+    <title>handeling alerts in js</title>
+    <test-cases>
+        <test-case start='1663831548529' status='passed' stop='1663831555292'>
+            <name>accept Js alert</name>
+            <title>accept Js alert</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1663831548530' status='passed' stop='1663831552239'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='6e9700c0-d411-41cf-bf04-cbe35df28ced-attachment.json' type='application/json' size='67'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663831552240' status='passed' stop='1663831552248'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c4f91040-740c-481f-a503-78851a0d53c5-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='5fd53976-678c-472e-adbb-02375ed47aba-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663831552251' status='passed' stop='1663831552256'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='ec75e2d2-1848-41ca-a50c-f13e51df2099-attachment.json' type='application/json' size='8331'/>
+                        <attachment title='Response' source='edd83e63-c174-4d7f-b984-5d805f6f92b2-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663831552256' status='passed' stop='1663831552260'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3f54493c-546f-47b2-a7cd-c91fbfb9f58d-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='09c2b88d-ea63-438a-b885-d0d581206adb-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663831552262' status='passed' stop='1663831552284'>
+                    <name>POST /session/:sessionId/element/24764467-62f3-4202-9dc2-2a08e18968e4/click</name>
+                    <title>POST /session/:sessionId/element/24764467-62f3-4202-9dc2-2a08e18968e4/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663831552284' status='passed' stop='1663831552286'>
+                    <name>GET /session/:sessionId/alert/text</name>
+                    <title>GET /session/:sessionId/alert/text</title>
+                    <attachments>
+                        <attachment title='Response' source='75d0cec5-ccdb-48a2-93a2-ed17c97a4861-attachment.json' type='application/json' size='17'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663831552287' status='passed' stop='1663831552289'>
+                    <name>POST /session/:sessionId/alert/accept</name>
+                    <title>POST /session/:sessionId/alert/accept</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

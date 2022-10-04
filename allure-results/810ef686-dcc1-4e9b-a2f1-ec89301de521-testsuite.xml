@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663525000300' stop='1663525002501'>
+    <name>ts pom first sampple</name>
+    <title>ts pom first sampple</title>
+    <test-cases>
+        <test-case start='1663525000300' status='broken' stop='1663525002501'>
+            <name>login</name>
+            <title>login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1663525000306' status='passed' stop='1663525002014'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ca621995-5af7-4f80-b48b-e79263825b2d-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663525002015' status='passed' stop='1663525002024'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0ca0458d-7343-4741-8f11-473d3aab7253-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='73d38f81-dc71-4de6-9852-da06836e0d44-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663525002027' status='passed' stop='1663525002044'>
+                    <name>POST /session/:sessionId/element/609799f5-61e2-409a-a082-3a635089759d/clear</name>
+                    <title>POST /session/:sessionId/element/609799f5-61e2-409a-a082-3a635089759d/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663525002046' status='passed' stop='1663525002116'>
+                    <name>POST /session/:sessionId/element/609799f5-61e2-409a-a082-3a635089759d/value</name>
+                    <title>POST /session/:sessionId/element/609799f5-61e2-409a-a082-3a635089759d/value</title>
+                    <attachments>
+                        <attachment title='Request' source='8501d36b-1bea-4f10-bcd7-e222c479828c-attachment.json' type='application/json' size='21'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663525002117' status='passed' stop='1663525002122'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='d942db5d-aa22-489e-b19b-2634002082f5-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='3dd2c395-904f-43f3-8c46-ff88fd95f05d-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663525002123' status='passed' stop='1663525002501'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='72003693-e5da-441a-beb3-ae7d0454f96c-attachment.png' type='image/png' size='1088050'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'click')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'click')
+                    at Context.&lt;anonymous> (/Users/akshay/Desktop/webdio/test/newWithPOM/test.spec.js:21:21)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

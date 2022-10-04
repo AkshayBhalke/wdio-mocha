@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664443068850' stop='1664443071652'>
+    <name>shadow DOM</name>
+    <title>shadow DOM</title>
+    <test-cases>
+        <test-case start='1664443068850' status='broken' stop='1664443071648'>
+            <name>nested shadow</name>
+            <title>nested shadow</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.61'/>
+            </parameters>
+            <steps>
+                <step start='1664443068851' status='passed' stop='1664443071147'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='a9b261b1-2405-4ea8-940d-6ce82ef3c98e-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664443071149' status='passed' stop='1664443071166'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b51dcd1a-2d70-401c-aac1-0497278f4141-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='982e17b0-cfcb-4850-a50a-b5000041a121-attachment.json' type='application/json' size='1524'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664443071170' status='broken' stop='1664443071648'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664443071172' status='passed' stop='1664443071648'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='dd7ac5d5-d4cb-48ee-ba66-acba91d9585e-attachment.json' type='application/json' size='53'/>
+                                <attachment title='Screenshot' source='d1bf8d9b-6c99-4175-95ac-64632c867be3-attachment.png' type='image/png' size='935044'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='587f33cc-0775-46bb-ba46-de7ea2608d58-attachment.json' type='application/json' size='2'/>
+            </attachments>
+            <failure>
+                <message>element.shadow$(...).waitForEnable(...).click is not a function</message>
+                <stack-trace>TypeError: element.shadow$(...).waitForEnable(...).click is not a function
+                    at Context.&lt;anonymous> (/Users/akshay/Desktop/webdio/test/14-shadowDom/shadow.spec.js:19:69)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

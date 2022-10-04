@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@aria-label=\"iphone 14 pro case\"]"
+}

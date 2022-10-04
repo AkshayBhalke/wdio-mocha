@@ -1,0 +1,300 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664518397888' stop='1664518413070'>
+    <name>wdio commands</name>
+    <title>wdio commands</title>
+    <test-cases>
+        <test-case start='1664518397888' status='failed' stop='1664518413069'>
+            <name>commands in wdio</name>
+            <title>commands in wdio</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.61'/>
+            </parameters>
+            <steps>
+                <step start='1664518397889' status='passed' stop='1664518399828'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='83fa26cb-951b-4029-a208-ffb4c476a832-attachment.json' type='application/json' size='71'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664518399829' status='passed' stop='1664518399833'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='aa527d8e-34f1-47b5-8d9d-a6d799727919-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664518399834' status='passed' stop='1664518399848'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='24d507f9-e6ea-4dbb-8a81-a1a8fc714219-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664518402852' status='passed' stop='1664518402857'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='0925d0c1-d9da-4828-965e-48d0ac7504fd-attachment.json' type='application/json' size='25'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664518402858' status='passed' stop='1664518402861'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='c305965d-276b-469a-89a8-997a8d577746-attachment.json' type='application/json' size='25'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664518402863' status='passed' stop='1664518402874'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='425d6f4d-3341-4062-b455-f5abce628c3a-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='caa38f43-5223-46c7-afb4-a3413591400d-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664518402878' status='passed' stop='1664518402884'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='9a46d6ef-a6fb-4483-b354-70a47ebc9707-attachment.json' type='application/json' size='8331'/>
+                        <attachment title='Response' source='e63037ac-3950-4aab-9c92-8bc539bd9560-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664518402885' status='passed' stop='1664518402892'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='0a46b9e1-3218-48f2-8c0b-efa6e0cbc47a-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='d4afd763-153a-408a-bf57-43bc5cf67539-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664518402894' status='passed' stop='1664518402901'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='7f31c241-1438-4f3c-9d05-288938341736-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='bea3a2ec-d83b-4e0d-9460-eacaa1a708ce-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664518402903' status='passed' stop='1664518402907'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='7d2ca574-5409-4c3d-8a94-feac3a9dd05e-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='9f4c70c2-a619-4116-8e6a-811c296fd3a6-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664518402908' status='passed' stop='1664518402912'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4a0d30e4-28c1-48a8-bff7-7df0847abea0-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='ca70ed4c-e4aa-4458-8fa3-0aa56387c854-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664518402913' status='passed' stop='1664518402916'>
+                    <name>GET /session/:sessionId/element/efa1a2da-b25a-4a37-949e-b4ed373dd310/attribute/id</name>
+                    <title>GET /session/:sessionId/element/efa1a2da-b25a-4a37-949e-b4ed373dd310/attribute/id</title>
+                    <attachments>
+                        <attachment title='Response' source='a3bf68d3-88ca-4b93-95e5-6d838d6ff410-attachment.json' type='application/json' size='13'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664518402916' status='passed' stop='1664518402918'>
+                    <name>GET /session/:sessionId/element/efa1a2da-b25a-4a37-949e-b4ed373dd310/attribute/class</name>
+                    <title>GET /session/:sessionId/element/efa1a2da-b25a-4a37-949e-b4ed373dd310/attribute/class</title>
+                    <attachments>
+                        <attachment title='Response' source='f8503661-d04b-4958-b155-9a1b8edcabce-attachment.json' type='application/json' size='23'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664518402918' status='passed' stop='1664518402920'>
+                    <name>GET /session/:sessionId/element/efa1a2da-b25a-4a37-949e-b4ed373dd310/attribute/class</name>
+                    <title>GET /session/:sessionId/element/efa1a2da-b25a-4a37-949e-b4ed373dd310/attribute/class</title>
+                    <attachments>
+                        <attachment title='Response' source='8a25bfb2-1300-4511-b887-2f138c2136b4-attachment.json' type='application/json' size='23'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664518402920' status='passed' stop='1664518402922'>
+                    <name>GET /session/:sessionId/element/efa1a2da-b25a-4a37-949e-b4ed373dd310/attribute/class</name>
+                    <title>GET /session/:sessionId/element/efa1a2da-b25a-4a37-949e-b4ed373dd310/attribute/class</title>
+                    <attachments>
+                        <attachment title='Response' source='1af8e57e-e648-43e9-8a40-c37fde06bf83-attachment.json' type='application/json' size='23'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664518402922' status='passed' stop='1664518402924'>
+                    <name>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</name>
+                    <title>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664518403424' status='passed' stop='1664518403430'>
+                    <name>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</name>
+                    <title>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664518403925' status='passed' stop='1664518403931'>
+                    <name>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</name>
+                    <title>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664518404423' status='passed' stop='1664518404430'>
+                    <name>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</name>
+                    <title>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664518404924' status='passed' stop='1664518404931'>
+                    <name>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</name>
+                    <title>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664518405424' status='passed' stop='1664518405433'>
+                    <name>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</name>
+                    <title>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664518405923' status='passed' stop='1664518405929'>
+                    <name>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</name>
+                    <title>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664518406424' status='passed' stop='1664518406428'>
+                    <name>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</name>
+                    <title>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664518406924' status='passed' stop='1664518406931'>
+                    <name>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</name>
+                    <title>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664518407425' status='passed' stop='1664518407432'>
+                    <name>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</name>
+                    <title>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664518407924' status='passed' stop='1664518407932'>
+                    <name>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</name>
+                    <title>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664518408424' status='passed' stop='1664518408431'>
+                    <name>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</name>
+                    <title>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664518408923' status='passed' stop='1664518408932'>
+                    <name>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</name>
+                    <title>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664518409424' status='passed' stop='1664518409427'>
+                    <name>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</name>
+                    <title>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664518409924' status='passed' stop='1664518409931'>
+                    <name>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</name>
+                    <title>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664518410424' status='passed' stop='1664518410431'>
+                    <name>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</name>
+                    <title>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664518410924' status='passed' stop='1664518410931'>
+                    <name>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</name>
+                    <title>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664518411423' status='passed' stop='1664518411428'>
+                    <name>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</name>
+                    <title>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664518411924' status='passed' stop='1664518411933'>
+                    <name>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</name>
+                    <title>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664518412424' status='passed' stop='1664518412426'>
+                    <name>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</name>
+                    <title>GET /session/:sessionId/element/3db39c9b-4e51-412f-b436-b24538cd898d/property/font-size</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664518412926' status='passed' stop='1664518413069'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='bacc00f3-da94-4c62-9924-20b09942a6aa-attachment.png' type='image/png' size='97186'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Expect $(`h1`) to have property font-size
+                
+                Expected: "36px"
+                Received: null</message>
+                <stack-trace>Error: Expect $(`h1`) to have property font-size
+                
+                Expected: "36px"
+                Received: null
+                    at Context.&lt;anonymous> (/Users/akshay/Desktop/webdio/test/11-allCommand/commands.spec.js:34:27)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1664518413070' status='pending' stop='1664518413070'>
+            <name>triger enter button</name>
+            <title>triger enter button</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

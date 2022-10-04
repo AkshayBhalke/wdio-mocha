@@ -1,0 +1,89 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663830560327' stop='1663830564463'>
+    <name>handeling alerts in js</name>
+    <title>handeling alerts in js</title>
+    <test-cases>
+        <test-case start='1663830560327' status='broken' stop='1663830564462'>
+            <name>accept Js alert</name>
+            <title>accept Js alert</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1663830560334' status='passed' stop='1663830564233'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='3ea5864f-dedf-4a27-8cf4-053aebefe6cb-attachment.json' type='application/json' size='67'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663830564234' status='broken' stop='1663830564462'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7a2f6a60-926e-4604-b560-7155d287190c-attachment.json' type='application/json' size='69'/>
+                    </attachments>
+                    <steps>
+                        <step start='1663830564235' status='passed' stop='1663830564290'>
+                            <name>GET /session/:sessionId/alert/text</name>
+                            <title>GET /session/:sessionId/alert/text</title>
+                            <attachments>
+                                <attachment title='Response' source='906b9a1d-66d1-4de3-8629-d7c0905e4f3e-attachment.json' type='application/json' size='4'/>
+                            </attachments>
+                            <steps>
+                                <step start='1663830564237' status='passed' stop='1663830564246'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='82b82a81-e74c-43bc-8df6-92c9916e48d2-attachment.json' type='application/json' size='69'/>
+                                        <attachment title='Response' source='75404fc1-86f3-4b4a-b322-d494266ab799-attachment.json' type='application/json' size='83'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1663830564249' status='passed' stop='1663830564250'>
+                                    <name>POST /session/:sessionId/element/bd886454-8fe6-4bf0-8b90-6d0d3b78f4f1/click</name>
+                                    <title>POST /session/:sessionId/element/bd886454-8fe6-4bf0-8b90-6d0d3b78f4f1/click</title>
+                                    <attachments>
+                                        <attachment title='Response' source='cd5769bb-713b-4864-92fd-49ec861097ee-attachment.json' type='application/json' size='83'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1663830564252' status='passed' stop='1663830564285'>
+                                    <name>POST /session/:sessionId/execute/sync</name>
+                                    <title>POST /session/:sessionId/execute/sync</title>
+                                    <attachments>
+                                        <attachment title='Request' source='3e3cfdad-7a10-4cb2-820f-1be8b048be4a-attachment.json' type='application/json' size='8331'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1663830564291' status='passed' stop='1663830564462'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='2adf2762-a1e1-4170-b8cf-6d0760b9cc4c-attachment.png' type='image/png' size='123967'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such alert
+                  (Session info: chrome=105.0.5195.125)</message>
+                <stack-trace>no such alert: no such alert
+                  (Session info: chrome=105.0.5195.125)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (/Users/akshay/Desktop/webdio/test/09-Alerts/alert.spec.js:9:26)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

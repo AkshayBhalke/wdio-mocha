@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663839562030' stop='1663839565570'>
+    <name>verifying file uploading</name>
+    <title>verifying file uploading</title>
+    <test-cases>
+        <test-case start='1663839562030' status='broken' stop='1663839565570'>
+            <name>file uploading</name>
+            <title>file uploading</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1663839562031' status='passed' stop='1663839565418'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='aba36467-a233-46f1-8578-c4459678ec2e-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663839565452' status='passed' stop='1663839565464'>
+                    <name>POST /session/:sessionId/file</name>
+                    <title>POST /session/:sessionId/file</title>
+                    <attachments>
+                        <attachment title='Request' source='64e61699-f2b6-4cea-8c1f-4e1064bbc7c2-attachment.json' type='application/json' size='317428'/>
+                        <attachment title='Response' source='35ba8658-e005-4473-a134-aa5b679a3a0e-attachment.json' type='application/json' size='97'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663839565464' status='passed' stop='1663839565569'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='171f4b54-9be7-4f08-abaa-bfebd5c2d5c2-attachment.png' type='image/png' size='91969'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>$(...).setValue is not a function</message>
+                <stack-trace>TypeError: $(...).setValue is not a function
+                    at Context.&lt;anonymous> (/Users/akshay/Desktop/webdio/test/10-fileUpload/file.js:11:33)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

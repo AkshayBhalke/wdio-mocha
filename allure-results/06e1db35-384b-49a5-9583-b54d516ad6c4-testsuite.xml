@@ -1,0 +1,66 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664431634828' stop='1664431636390'>
+    <name>date picker</name>
+    <title>date picker</title>
+    <test-cases>
+        <test-case start='1664431634828' status='broken' stop='1664431636390'>
+            <name>date selecting functionality</name>
+            <title>date selecting functionality</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-106.0.0.0'/>
+            </parameters>
+            <steps>
+                <step start='1664431634840' status='passed' stop='1664431636315'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='ced3593c-860b-4120-9fa0-f2ca137acf99-attachment.json' type='application/json' size='71'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664431636318' status='passed' stop='1664431636351'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='a22e17e8-55a4-4bb7-a23d-824c11754da2-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='39e08a8d-d49a-492c-9d12-1d2bd7b91869-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664431636355' status='broken' stop='1664431636390'>
+                    <name>elementClick</name>
+                    <title>elementClick</title>
+                    <attachments>
+                        <attachment title='Request' source='4787f5c4-56c9-48a6-9cca-a106a35b9fd7-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps>
+                        <step start='1664431636388' status='passed' stop='1664431636389'>
+                            <name>deleteSession</name>
+                            <title>deleteSession</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Protocol error (Input.dispatchMouseEvent): Target closed.</message>
+                <stack-trace>Protocol error (Input.dispatchMouseEvent): Target closed.
+                ProtocolError: Protocol error (Input.dispatchMouseEvent): Target closed.
+                    at /Users/akshay/Desktop/webdio/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:230:24
+                    at new Promise (&lt;anonymous>)
+                    at CDPSession.send (/Users/akshay/Desktop/webdio/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:226:16)
+                    at Mouse.up (/Users/akshay/Desktop/webdio/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Input.js:395:28)
+                    at Mouse.click (/Users/akshay/Desktop/webdio/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Input.js:369:24)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async ElementHandle.click (/Users/akshay/Desktop/webdio/node_modules/puppeteer-core/lib/cjs/puppeteer/common/JSHandle.js:497:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

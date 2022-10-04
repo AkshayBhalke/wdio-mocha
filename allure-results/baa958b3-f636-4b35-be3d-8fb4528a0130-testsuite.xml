@@ -1,0 +1,62 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663235236935' stop='1663235237065'>
+    <name>ts02-Blaze</name>
+    <title>ts02-Blaze</title>
+    <test-cases>
+        <test-case start='1663235236936' status='broken' stop='1663235237064'>
+            <name>heading enabled or not</name>
+            <title>heading enabled or not</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1663235236943' status='broken' stop='1663235237064'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b5035a14-ef8f-4979-9439-971f598b4ebb-attachment.json' type='application/json' size='70'/>
+                    </attachments>
+                    <steps>
+                        <step start='1663235236944' status='broken' stop='1663235237064'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1663235236945' status='passed' stop='1663235236963'>
+                                    <name>POST /session/:sessionId/url</name>
+                                    <title>POST /session/:sessionId/url</title>
+                                    <attachments>
+                                        <attachment title='Request' source='2142bc76-842a-4499-94e2-2264144fde0b-attachment.json' type='application/json' size='42'/>
+                                        <attachment title='Response' source='2de17a39-bcb2-4202-a7bf-a533feffa04f-attachment.json' type='application/json' size='1542'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1663235236965' status='passed' stop='1663235237064'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='e6d1d5d6-e522-4d01-b69d-fb8a1fb80a29-attachment.json' type='application/json' size='70'/>
+                                        <attachment title='Screenshot' source='b5bd78db-208b-4a49-9c3d-9a54f009fd3d-attachment.png' type='image/png' size='14894'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Blazepage.clickonproduct is not a function</message>
+                <stack-trace>TypeError: Blazepage.clickonproduct is not a function
+                    at Context.&lt;anonymous> (/Users/akshay/Desktop/webdio/test/blazze/testfile/test.spec.js:22:28)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

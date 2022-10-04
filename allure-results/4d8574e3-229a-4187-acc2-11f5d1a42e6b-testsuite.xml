@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663239948636' stop='1663239948769'>
+    <name>internethuroku checkbox</name>
+    <title>internethuroku checkbox</title>
+    <test-cases>
+        <test-case start='1663239948636' status='broken' stop='1663239948769'>
+            <name>checkbox click</name>
+            <title>checkbox click</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1663239948643' status='broken' stop='1663239948769'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663239948644' status='passed' stop='1663239948769'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='5b6e349f-af04-4dd0-acb2-77bb5d84b165-attachment.json' type='application/json' size='50'/>
+                                <attachment title='Screenshot' source='4222c5e0-7c8a-41a4-b9b0-1c0912952a6a-attachment.png' type='image/png' size='14894'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>(intermediate value).clickOnlink is not a function</message>
+                <stack-trace>TypeError: (intermediate value).clickOnlink is not a function
+                    at Context.&lt;anonymous> (/Users/akshay/Desktop/webdio/test/InternetH/TESTFILE/test.spec.js:8:33)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

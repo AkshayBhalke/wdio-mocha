@@ -1,0 +1,9 @@
+{
+  "script": "return (function (elem) {\n        return (function() {\n      // element has a shadowRoot property\n      if (this.shadowRoot) {\n        return this.shadowRoot.querySelector('h2')\n      }\n      // fall back to querying the element directly if not\n      return this.querySelector('h2')\n    }).call(elem);\n    }).apply(null, arguments)",
+  "args": [
+    {
+      "element-6066-11e4-a52e-4f735466cecf": "817dbf2a-0f8d-46b8-81eb-328418a14c43",
+      "ELEMENT": "817dbf2a-0f8d-46b8-81eb-328418a14c43"
+    }
+  ]
+}

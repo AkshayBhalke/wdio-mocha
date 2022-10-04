@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663832876863' stop='1663832880448'>
+    <name>handeling alerts in js</name>
+    <title>handeling alerts in js</title>
+    <test-cases>
+        <test-case start='1663832876863' status='broken' stop='1663832880447'>
+            <name>cancel the alert</name>
+            <title>cancel the alert</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1663832876864' status='passed' stop='1663832880249'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='a0bb817f-af1d-422d-ad3a-cbfbc6b5eebc-attachment.json' type='application/json' size='67'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663832880250' status='passed' stop='1663832880259'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1f68bcca-efe0-4f8c-80de-3c664f73c4c2-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='3ad19b9f-363d-41d2-a315-dfaee6b7d8b1-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663832880263' status='passed' stop='1663832880267'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='65f982a7-7737-4f57-a632-13dadf236da0-attachment.json' type='application/json' size='8331'/>
+                        <attachment title='Response' source='cd18c774-1a62-48f4-905a-c593aa14f4f0-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663832880268' status='passed' stop='1663832880272'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='56336ff1-452c-44f7-a717-ac86db2743b6-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='879832ba-c2b2-4fdf-a821-de7782a0c1dc-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663832880273' status='passed' stop='1663832880306'>
+                    <name>POST /session/:sessionId/element/d7a2c603-d55d-4a5f-87a0-82a12e888d12/click</name>
+                    <title>POST /session/:sessionId/element/d7a2c603-d55d-4a5f-87a0-82a12e888d12/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663832880307' status='passed' stop='1663832880308'>
+                    <name>POST /session/:sessionId/alert/dismiss</name>
+                    <title>POST /session/:sessionId/alert/dismiss</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663832880309' status='passed' stop='1663832880447'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='5ca47595-4b1f-428a-a0bd-d9170c3d61f1-attachment.png' type='image/png' size='123846'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>alert is not defined</message>
+                <stack-trace>ReferenceError: alert is not defined
+                    at Context.&lt;anonymous> (/Users/akshay/Desktop/webdio/test/09-Alerts/alert.spec.js:25:25)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

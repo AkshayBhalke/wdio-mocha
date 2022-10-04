@@ -1,0 +1,88 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663836989397' stop='1663836993034'>
+    <name>handeling alerts in js</name>
+    <title>handeling alerts in js</title>
+    <test-cases>
+        <test-case start='1663836989397' status='broken' stop='1663836993033'>
+            <name>confirm ok in the alert</name>
+            <title>confirm ok in the alert</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1663836989398' status='passed' stop='1663836992681'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='2116d35b-1aab-4114-b1a3-c7915f56d392-attachment.json' type='application/json' size='67'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663836992682' status='passed' stop='1663836992689'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3aa0c102-07ca-457d-890b-604288130f55-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='020a4614-9d3d-41b6-8ff4-4d93d80d64e7-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663836992693' status='passed' stop='1663836992696'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='88b0f745-060a-4453-8d53-1665a0622f83-attachment.json' type='application/json' size='8331'/>
+                        <attachment title='Response' source='613ecc98-abca-4951-ad0c-ef9e6c7ece72-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663836992697' status='passed' stop='1663836992701'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d1d3dde4-d7ce-4aec-886c-e9961f1cbd7c-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='ca34ac0f-e537-4e16-b1a9-16ec10c08c24-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663836992702' status='passed' stop='1663836992724'>
+                    <name>POST /session/:sessionId/element/cb54f09e-c8d5-4ed9-b056-b5caffc7cf90/click</name>
+                    <title>POST /session/:sessionId/element/cb54f09e-c8d5-4ed9-b056-b5caffc7cf90/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663836992724' status='broken' stop='1663836993033'>
+                    <name>POST /session/:sessionId/alert/text</name>
+                    <title>POST /session/:sessionId/alert/text</title>
+                    <attachments>
+                        <attachment title='Request' source='dcb435ca-3afd-4eb3-9b44-a6caaca1279a-attachment.json' type='application/json' size='21'/>
+                    </attachments>
+                    <steps>
+                        <step start='1663836992731' status='passed' stop='1663836993033'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='c876761b-582d-401e-a095-869e6c2957c8-attachment.png' type='image/png' size='121368'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element not interactable: User dialog does not have a text box input field.
+                  (Session info: chrome=105.0.5195.125)</message>
+                <stack-trace>element not interactable: element not interactable: User dialog does not have a text box input field.
+                  (Session info: chrome=105.0.5195.125)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (/Users/akshay/Desktop/webdio/test/09-Alerts/alert.spec.js:52:22)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664188719374' stop='1664188722615'>
+    <name>wdio commands</name>
+    <title>wdio commands</title>
+    <test-cases>
+        <test-case start='1664188719374' status='pending' stop='1664188719374'>
+            <name>commands in wdio</name>
+            <title>commands in wdio</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1664188719374' status='broken' stop='1664188722615'>
+            <name>triger enter button</name>
+            <title>triger enter button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1664188719375' status='passed' stop='1664188722063'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='a4893d75-e539-47f9-a67f-7f6f26d3b785-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664188722064' status='passed' stop='1664188722074'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='10a395c3-0fc2-40e4-80eb-fc470b22201a-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='1bf89c16-50e6-439b-9a60-71ab4b5fa1c8-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664188722077' status='passed' stop='1664188722097'>
+                    <name>POST /session/:sessionId/element/4c8072e3-d14a-4402-8e42-b8f16936e8b2/clear</name>
+                    <title>POST /session/:sessionId/element/4c8072e3-d14a-4402-8e42-b8f16936e8b2/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664188722098' status='passed' stop='1664188722164'>
+                    <name>POST /session/:sessionId/element/4c8072e3-d14a-4402-8e42-b8f16936e8b2/value</name>
+                    <title>POST /session/:sessionId/element/4c8072e3-d14a-4402-8e42-b8f16936e8b2/value</title>
+                    <attachments>
+                        <attachment title='Request' source='ff5bef12-f9f0-4245-b391-bf6fbeb42dd6-attachment.json' type='application/json' size='22'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664188722164' status='passed' stop='1664188722614'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ad65de12-94b0-489e-9a5c-bdb08913b701-attachment.png' type='image/png' size='1216789'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>enter is not defined</message>
+                <stack-trace>ReferenceError: enter is not defined
+                    at Context.&lt;anonymous> (/Users/akshay/Desktop/webdio/test/11-allCommand/commands.spec.js:20:26)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,107 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663741966295' stop='1663741975436'>
+    <name>varifying iframe</name>
+    <title>varifying iframe</title>
+    <test-cases>
+        <test-case start='1663741966295' status='failed' stop='1663741975436'>
+            <name>iframe</name>
+            <title>iframe</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1663741966302' status='passed' stop='1663741970163'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='91d82dc3-7876-4e22-8da7-0421d62271ef-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663741970164' status='passed' stop='1663741970174'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9c712301-3a73-40ba-8101-abdf4219d05c-attachment.json' type='application/json' size='76'/>
+                        <attachment title='Response' source='c4875d62-43d9-4df6-a164-5e9a5f170c42-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663741970176' status='passed' stop='1663741970186'>
+                    <name>POST /session/:sessionId/frame</name>
+                    <title>POST /session/:sessionId/frame</title>
+                    <attachments>
+                        <attachment title='Request' source='8e788f03-0520-47d6-871b-b3d9281f4072-attachment.json' type='application/json' size='3709'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663741970187' status='passed' stop='1663741970192'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='313cd864-f2df-4991-8e0a-cef44d54682e-attachment.json' type='application/json' size='52'/>
+                        <attachment title='Response' source='32d756ba-77af-46d2-b978-d06cad7484b9-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663741970194' status='passed' stop='1663741970205'>
+                    <name>POST /session/:sessionId/element/7c2d7962-a7ed-4bcd-ae8f-fd6502139c84/clear</name>
+                    <title>POST /session/:sessionId/element/7c2d7962-a7ed-4bcd-ae8f-fd6502139c84/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663741970206' status='passed' stop='1663741970267'>
+                    <name>POST /session/:sessionId/element/7c2d7962-a7ed-4bcd-ae8f-fd6502139c84/value</name>
+                    <title>POST /session/:sessionId/element/7c2d7962-a7ed-4bcd-ae8f-fd6502139c84/value</title>
+                    <attachments>
+                        <attachment title='Request' source='cc72c171-3625-47ab-9d3b-6391770008bc-attachment.json' type='application/json' size='21'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663741975273' status='passed' stop='1663741975292'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='222a663c-af45-4210-bee4-5f9d4f062f95-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='3639356d-1400-4f6c-b5a6-248c3e696959-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663741975295' status='passed' stop='1663741975307'>
+                    <name>GET /session/:sessionId/element/671794ac-1b72-46d2-a75d-eefd2613b0bf/text</name>
+                    <title>GET /session/:sessionId/element/671794ac-1b72-46d2-a75d-eefd2613b0bf/text</title>
+                    <attachments>
+                        <attachment title='Response' source='540fa5b7-01bf-44cb-a6dc-4cab95e7e4b8-attachment.json' type='application/json' size='25'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663741975310' status='passed' stop='1663741975436'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e04e0e28-1116-4852-b28e-4e464caa7417-attachment.png' type='image/png' size='108524'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expect(received).toEqual(expected) // deep equality
+                
+                Expected: "hell"
+                Received: "Your content goes here."</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: "hell"
+                Received: "Your content goes here."
+                    at Context.&lt;anonymous> (/Users/akshay/Desktop/webdio/test/05-iframe/iframe.spec.js:12:24)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

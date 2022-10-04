@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663228854256' stop='1663228857972'>
+    <name>ts02-Blaze</name>
+    <title>ts02-Blaze</title>
+    <test-cases>
+        <test-case start='1663228854256' status='passed' stop='1663228854277'>
+            <name>heading display or not</name>
+            <title>heading display or not</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1663228854264' status='undefined'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0ccba54e-f608-45ad-ac63-74c6dce248a6-attachment.json' type='application/json' size='76'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1663228854278' status='passed' stop='1663228857971'>
+            <name>heading enabled or not</name>
+            <title>heading enabled or not</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1663228854278' status='passed' stop='1663228854312'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='9b866dea-aacc-4838-a4ce-6bc956de15e1-attachment.json' type='application/json' size='42'/>
+                        <attachment title='Response' source='80a906ea-472d-4a9e-bdfd-d551503cf360-attachment.json' type='application/json' size='1548'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663228854315' status='passed' stop='1663228854349'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a28d4dcc-ecb3-4d43-ab0d-ef4f16f75c7c-attachment.json' type='application/json' size='76'/>
+                        <attachment title='Response' source='4606ef17-43a0-48cb-8fe1-622cc2ca38b8-attachment.json' type='application/json' size='1548'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663228857970' status='undefined'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='dc918c48-6098-4890-8761-90a95722c623-attachment.json' type='application/json' size='76'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

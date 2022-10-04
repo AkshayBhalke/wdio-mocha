@@ -1,0 +1,72 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664444406814' stop='1664444409950'>
+    <name>shadow DOM</name>
+    <title>shadow DOM</title>
+    <test-cases>
+        <test-case start='1664444406814' status='broken' stop='1664444409949'>
+            <name>nested shadow</name>
+            <title>nested shadow</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.61'/>
+            </parameters>
+            <steps>
+                <step start='1664444406814' status='passed' stop='1664444409441'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='0154e65f-9409-4f5f-a5ef-a9bc74239639-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664444409442' status='passed' stop='1664444409451'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='cb448fb0-df37-4c3e-b748-d8f90577ab71-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='65450cdd-07f4-4b85-8ddf-eb9025b59f59-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664444409455' status='passed' stop='1664444409459'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='6d8fbe2c-0fa8-407a-9246-2d4b5f69139c-attachment.json' type='application/json' size='552'/>
+                        <attachment title='Response' source='b676ca2e-0850-4f98-ac5b-82449a89b329-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664444409461' status='broken' stop='1664444409949'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='027d58b9-07f7-4c29-b3f7-468acea7b552-attachment.json' type='application/json' size='650'/>
+                    </attachments>
+                    <steps>
+                        <step start='1664444409499' status='passed' stop='1664444409949'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='eb0091f3-4168-42ec-ab86-96b83752b677-attachment.png' type='image/png' size='935355'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid element state: Failed to execute 'querySelector' on 'DocumentFragment': '/html/body/shop-app//iron-pages/shop-home//div[3]/shop-button/a' is not a valid selector.
+                  (Session info: chrome=106.0.5249.61)</message>
+                <stack-trace>invalid element state: invalid element state: Failed to execute 'querySelector' on 'DocumentFragment': '/html/body/shop-app//iron-pages/shop-home//div[3]/shop-button/a' is not a valid selector.
+                  (Session info: chrome=106.0.5249.61)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

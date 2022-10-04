@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663245902233' stop='1663245902383'>
+    <name>ts-01 login sample site</name>
+    <title>ts-01 login sample site</title>
+    <test-cases>
+        <test-case start='1663245902233' status='failed' stop='1663245902383'>
+            <name>login orangehrm</name>
+            <title>login orangehrm</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1663245902241' status='passed' stop='1663245902259'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='687c6f34-a9a6-401b-8771-ac681745b6e9-attachment.json' type='application/json' size='42'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663245902260' status='passed' stop='1663245902270'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='4dc9e49e-edb3-42c4-9bcb-84d6cafc7b94-attachment.json' type='application/json' size='8'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663245902272' status='passed' stop='1663245902382'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='13e0c797-7f36-4b35-b062-d2662c5f9fec-attachment.png' type='image/png' size='14894'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expect(received).toContainEqual(expected) // deep equality
+                
+                Expected value:  "hhttps://www.orangehrm.com/"
+                Received string: "data:,"</message>
+                <stack-trace>Error: expect(received).toContainEqual(expected) // deep equality
+                
+                Expected value:  "hhttps://www.orangehrm.com/"
+                Received string: "data:,"
+                    at Context.&lt;anonymous> (/Users/akshay/Desktop/webdio/test/basic/orange.spec.js:20:22)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

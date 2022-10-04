@@ -1,0 +1,4 @@
+{
+  "script": "document.querySelector(\"my-open-component\").shadowRoot.querySelector(\"input\") ",
+  "args": []
+}

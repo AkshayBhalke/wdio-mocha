@@ -1,0 +1,9 @@
+{
+  "script": "return (function (elem) {\n        return (function() {\n      // element has a shadowRoot property\n      if (this.shadowRoot) {\n        return this.shadowRoot.querySelector('/html/body/shop-app//iron-pages/shop-home//div[3]/shop-button/a')\n      }\n      // fall back to querying the element directly if not\n      return this.querySelector('/html/body/shop-app//iron-pages/shop-home//div[3]/shop-button/a')\n    }).call(elem);\n    }).apply(null, arguments)",
+  "args": [
+    {
+      "element-6066-11e4-a52e-4f735466cecf": "43d0270c-fe46-47a9-a63b-baeb9c597840",
+      "ELEMENT": "43d0270c-fe46-47a9-a63b-baeb9c597840"
+    }
+  ]
+}

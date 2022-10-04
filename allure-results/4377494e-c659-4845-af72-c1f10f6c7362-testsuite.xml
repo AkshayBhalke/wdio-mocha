@@ -1,0 +1,218 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663228227214' stop='1663228231575'>
+    <name>ts02-Blaze</name>
+    <title>ts02-Blaze</title>
+    <test-cases>
+        <test-case start='1663228227214' status='passed' stop='1663228231565'>
+            <name> get text of all header li</name>
+            <title> get text of all header li</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1663228227221' status='passed' stop='1663228231521'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='087bd604-12f5-4efa-acc0-fee414249e93-attachment.json' type='application/json' size='42'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663228231522' status='passed' stop='1663228231533'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='772f27c2-9a31-44e6-976c-8da5ad723fd2-attachment.json' type='application/json' size='62'/>
+                        <attachment title='Response' source='79e0a90a-8bba-48a5-8bd5-6f771c0fb7df-attachment.json' type='application/json' size='821'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663228231539' status='passed' stop='1663228231549'>
+                    <name>POST /session/:sessionId/element/beb6aa19-a1c2-493b-99ba-7800e73a1fc6/elements</name>
+                    <title>POST /session/:sessionId/element/beb6aa19-a1c2-493b-99ba-7800e73a1fc6/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='ecc81272-2aed-4533-89f6-97824097907f-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='7ccee441-570b-4f49-9bd5-e94c599d52cf-attachment.json' type='application/json' size='1913'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663228231557' status='undefined'>
+                    <name>GET /session/:sessionId/element/561ef245-3416-49be-a2d6-1fe8bf510d38/text</name>
+                    <title>GET /session/:sessionId/element/561ef245-3416-49be-a2d6-1fe8bf510d38/text</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663228231557' status='undefined'>
+                            <name>GET /session/:sessionId/element/9ede3a67-e0d1-4678-8f4d-7b81f6441f1f/text</name>
+                            <title>GET /session/:sessionId/element/9ede3a67-e0d1-4678-8f4d-7b81f6441f1f/text</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1663228231558' status='undefined'>
+                                    <name>GET /session/:sessionId/element/89561569-cead-40f1-8eee-9c47d963b0af/text</name>
+                                    <title>GET /session/:sessionId/element/89561569-cead-40f1-8eee-9c47d963b0af/text</title>
+                                    <attachments/>
+                                    <steps>
+                                        <step start='1663228231558' status='undefined'>
+                                            <name>GET /session/:sessionId/element/4331f7ef-f6dd-495d-a07f-20f1fdf0d13c/text</name>
+                                            <title>GET /session/:sessionId/element/4331f7ef-f6dd-495d-a07f-20f1fdf0d13c/text</title>
+                                            <attachments/>
+                                            <steps>
+                                                <step start='1663228231559' status='undefined'>
+                                                    <name>GET /session/:sessionId/element/6450cb6d-f3e9-4067-8fe5-0474b1400d7f/text</name>
+                                                    <title>GET /session/:sessionId/element/6450cb6d-f3e9-4067-8fe5-0474b1400d7f/text</title>
+                                                    <attachments/>
+                                                    <steps>
+                                                        <step start='1663228231559' status='undefined'>
+                                                            <name>GET /session/:sessionId/element/5d76c4b1-a5a4-46ac-803f-b7c2fb8e6e54/text</name>
+                                                            <title>GET /session/:sessionId/element/5d76c4b1-a5a4-46ac-803f-b7c2fb8e6e54/text</title>
+                                                            <attachments/>
+                                                            <steps>
+                                                                <step start='1663228231560' status='undefined'>
+                                                                    <name>GET /session/:sessionId/element/608ce11d-faf7-44ad-a0b6-6167cb5789b1/text</name>
+                                                                    <title>GET /session/:sessionId/element/608ce11d-faf7-44ad-a0b6-6167cb5789b1/text</title>
+                                                                    <attachments/>
+                                                                    <steps>
+                                                                        <step start='1663228231561' status='undefined'>
+                                                                            <name>GET /session/:sessionId/element/9661c985-84b2-4fbd-b817-f4f6f3de51aa/text</name>
+                                                                            <title>GET /session/:sessionId/element/9661c985-84b2-4fbd-b817-f4f6f3de51aa/text</title>
+                                                                            <attachments/>
+                                                                            <steps>
+                                                                                <step start='1663228231561' status='undefined'>
+                                                                                    <name>GET /session/:sessionId/element/84d5b845-1283-477b-aa07-638fc603eff5/text</name>
+                                                                                    <title>GET /session/:sessionId/element/84d5b845-1283-477b-aa07-638fc603eff5/text</title>
+                                                                                    <attachments/>
+                                                                                    <steps>
+                                                                                        <step start='1663228231562' status='undefined'>
+                                                                                            <name>GET /session/:sessionId/element/2bdcb52f-4307-4bfc-8a58-acddee7ebb41/text</name>
+                                                                                            <title>GET /session/:sessionId/element/2bdcb52f-4307-4bfc-8a58-acddee7ebb41/text</title>
+                                                                                            <attachments/>
+                                                                                            <steps>
+                                                                                                <step start='1663228231563' status='undefined'>
+                                                                                                    <name>GET /session/:sessionId/element/82d8ab27-ff81-4c5e-bc55-f6da81258045/text</name>
+                                                                                                    <title>GET /session/:sessionId/element/82d8ab27-ff81-4c5e-bc55-f6da81258045/text</title>
+                                                                                                    <attachments/>
+                                                                                                    <steps>
+                                                                                                        <step start='1663228231563' status='undefined'>
+                                                                                                            <name>GET /session/:sessionId/element/357f7af8-2062-4aa4-8003-c083820356b9/text</name>
+                                                                                                            <title>GET /session/:sessionId/element/357f7af8-2062-4aa4-8003-c083820356b9/text</title>
+                                                                                                            <attachments/>
+                                                                                                            <steps>
+                                                                                                                <step start='1663228231563' status='undefined'>
+                                                                                                                    <name>GET /session/:sessionId/element/a018a6c2-99af-4941-9ce3-ae1fddd343c2/text</name>
+                                                                                                                    <title>GET /session/:sessionId/element/a018a6c2-99af-4941-9ce3-ae1fddd343c2/text</title>
+                                                                                                                    <attachments/>
+                                                                                                                    <steps>
+                                                                                                                        <step start='1663228231564' status='undefined'>
+                                                                                                                            <name>GET /session/:sessionId/element/e76f3b82-ed7e-4282-84b0-952abdfb0985/text</name>
+                                                                                                                            <title>GET /session/:sessionId/element/e76f3b82-ed7e-4282-84b0-952abdfb0985/text</title>
+                                                                                                                            <attachments/>
+                                                                                                                            <steps>
+                                                                                                                                <step start='1663228231564' status='undefined'>
+                                                                                                                                    <name>GET /session/:sessionId/element/c9709647-a178-43ca-ac9a-249db248fc4c/text</name>
+                                                                                                                                    <title>GET /session/:sessionId/element/c9709647-a178-43ca-ac9a-249db248fc4c/text</title>
+                                                                                                                                    <attachments/>
+                                                                                                                                    <steps>
+                                                                                                                                        <step start='1663228231565' status='undefined'>
+                                                                                                                                            <name>GET /session/:sessionId/element/7477c7ce-9eb9-49ac-95b0-52e2480bae56/text</name>
+                                                                                                                                            <title>GET /session/:sessionId/element/7477c7ce-9eb9-49ac-95b0-52e2480bae56/text</title>
+                                                                                                                                            <attachments/>
+                                                                                                                                            <steps>
+                                                                                                                                                <step start='1663228231565' status='undefined'>
+                                                                                                                                                    <name>GET /session/:sessionId/element/c65e897f-1878-41c9-82ca-da26142b81a5/text</name>
+                                                                                                                                                    <title>GET /session/:sessionId/element/c65e897f-1878-41c9-82ca-da26142b81a5/text</title>
+                                                                                                                                                    <attachments/>
+                                                                                                                                                    <steps>
+                                                                                                                                                        <step start='1663228231565' status='undefined'>
+                                                                                                                                                            <name>GET /session/:sessionId/element/49a329e5-00a9-4c82-84e8-2fc55d73c650/text</name>
+                                                                                                                                                            <title>GET /session/:sessionId/element/49a329e5-00a9-4c82-84e8-2fc55d73c650/text</title>
+                                                                                                                                                            <attachments/>
+                                                                                                                                                            <steps>
+                                                                                                                                                                <step start='1663228231565' status='undefined'>
+                                                                                                                                                                    <name>GET /session/:sessionId/element/5234188c-ac48-4afc-8cb1-0faba8e810b5/text</name>
+                                                                                                                                                                    <title>GET /session/:sessionId/element/5234188c-ac48-4afc-8cb1-0faba8e810b5/text</title>
+                                                                                                                                                                    <attachments/>
+                                                                                                                                                                    <steps>
+                                                                                                                                                                        <step start='1663228231566' status='undefined'>
+                                                                                                                                                                            <name>GET /session/:sessionId/element/d686d25f-6f5a-430f-b806-819e8687a218/text</name>
+                                                                                                                                                                            <title>GET /session/:sessionId/element/d686d25f-6f5a-430f-b806-819e8687a218/text</title>
+                                                                                                                                                                            <attachments/>
+                                                                                                                                                                            <steps>
+                                                                                                                                                                                <step start='1663228231566' status='undefined'>
+                                                                                                                                                                                    <name>GET /session/:sessionId/element/ec8feb03-e18f-48c3-91a5-0673581e7312/text</name>
+                                                                                                                                                                                    <title>GET /session/:sessionId/element/ec8feb03-e18f-48c3-91a5-0673581e7312/text</title>
+                                                                                                                                                                                    <attachments/>
+                                                                                                                                                                                    <steps/>
+                                                                                                                                                                                </step>
+                                                                                                                                                                            </steps>
+                                                                                                                                                                        </step>
+                                                                                                                                                                    </steps>
+                                                                                                                                                                </step>
+                                                                                                                                                            </steps>
+                                                                                                                                                        </step>
+                                                                                                                                                    </steps>
+                                                                                                                                                </step>
+                                                                                                                                            </steps>
+                                                                                                                                        </step>
+                                                                                                                                    </steps>
+                                                                                                                                </step>
+                                                                                                                            </steps>
+                                                                                                                        </step>
+                                                                                                                    </steps>
+                                                                                                                </step>
+                                                                                                            </steps>
+                                                                                                        </step>
+                                                                                                    </steps>
+                                                                                                </step>
+                                                                                            </steps>
+                                                                                        </step>
+                                                                                    </steps>
+                                                                                </step>
+                                                                            </steps>
+                                                                        </step>
+                                                                    </steps>
+                                                                </step>
+                                                            </steps>
+                                                        </step>
+                                                    </steps>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1663228231568' status='passed' stop='1663228231569'>
+            <name>heading display or not</name>
+            <title>heading display or not</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1663228231568' status='passed' stop='1663228231574'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c7fd94e3-c944-46c6-88cc-59d8089d8159-attachment.json' type='application/json' size='76'/>
+                        <attachment title='Response' source='69bf37c4-eb04-4856-9b69-0e322886fe4b-attachment.json' type='application/json' size='9'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

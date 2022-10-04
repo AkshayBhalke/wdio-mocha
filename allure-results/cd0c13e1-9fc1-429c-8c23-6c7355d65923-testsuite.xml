@@ -1,0 +1,72 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664443779248' stop='1664443784056'>
+    <name>shadow DOM</name>
+    <title>shadow DOM</title>
+    <test-cases>
+        <test-case start='1664443779249' status='broken' stop='1664443784056'>
+            <name>nested shadow</name>
+            <title>nested shadow</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.61'/>
+            </parameters>
+            <steps>
+                <step start='1664443779249' status='passed' stop='1664443781623'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='4a6c4b1c-60e7-468a-a554-7c2ecef162d7-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664443783628' status='passed' stop='1664443783650'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='faaac26e-63b7-44d2-99b7-8ba7290dedb5-attachment.json' type='application/json' size='52'/>
+                        <attachment title='Response' source='d57ca751-5cc9-4bfd-b49f-4801fe777948-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664443783655' status='passed' stop='1664443783663'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='9f3556bf-3329-4ff4-bb49-171a4c241810-attachment.json' type='application/json' size='552'/>
+                        <attachment title='Response' source='3c5c3d03-b5f3-4476-9b9e-28b0770ea984-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664443783665' status='broken' stop='1664443784056'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='d6092561-e578-4993-91ce-dbdde7ee1421-attachment.json' type='application/json' size='572'/>
+                    </attachments>
+                    <steps>
+                        <step start='1664443783684' status='passed' stop='1664443784056'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='dda6f402-6bcd-4bfe-bc93-cba5ec79d86d-attachment.png' type='image/png' size='1176651'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid element state: Failed to execute 'querySelector' on 'DocumentFragment': '//a[text()="Shop Now"]' is not a valid selector.
+                  (Session info: chrome=106.0.5249.61)</message>
+                <stack-trace>invalid element state: invalid element state: Failed to execute 'querySelector' on 'DocumentFragment': '//a[text()="Shop Now"]' is not a valid selector.
+                  (Session info: chrome=106.0.5249.61)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

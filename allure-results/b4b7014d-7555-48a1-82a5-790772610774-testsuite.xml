@@ -1,0 +1,87 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664343443078' stop='1664343447487'>
+    <name>varifying the intercept</name>
+    <title>varifying the intercept</title>
+    <test-cases>
+        <test-case start='1664343443078' status='broken' stop='1664343447486'>
+            <name>get request</name>
+            <title>get request</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-105.0.0.0'/>
+            </parameters>
+            <steps>
+                <step start='1664343443080' status='passed' stop='1664343445843'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='c668154c-cd58-49c3-8527-35e5e36f8434-attachment.json' type='application/json' size='33'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664343445849' status='passed' stop='1664343445877'>
+                    <name>executeAsyncScript</name>
+                    <title>executeAsyncScript</title>
+                    <attachments>
+                        <attachment title='Request' source='e0fc3506-f9db-4538-a1df-070202e5ff0d-attachment.json' type='application/json' size='10692'/>
+                        <attachment title='Response' source='a19ee121-24b8-4f1a-b1e1-67e1949db97f-attachment.json' type='application/json' size='20'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664343445879' status='passed' stop='1664343445902'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='a16a8db4-45b1-473d-b273-b50496942702-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='af34f6b7-cd03-4432-af0e-ab7de50b34a4-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664343445906' status='passed' stop='1664343445950'>
+                    <name>elementClick</name>
+                    <title>elementClick</title>
+                    <attachments>
+                        <attachment title='Request' source='13b3e614-a2f7-41e1-8919-97f8780eaa40-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664343445952' status='passed' stop='1664343445978'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='3de4e97e-ef97-4395-be28-efc8ebbe1772-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='7069fb53-3d34-4538-8788-0e05efba5e1e-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664343445982' status='passed' stop='1664343446030'>
+                    <name>elementClick</name>
+                    <title>elementClick</title>
+                    <attachments>
+                        <attachment title='Request' source='db745492-b3f0-4a22-af31-b421d7fcae4c-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664343446031' status='passed' stop='1664343447485'>
+                    <name>takeScreenshot</name>
+                    <title>takeScreenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='943ee2d3-5bed-415e-9ced-4cff5cb7d986-attachment.png' type='image/png' size='1898979'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.postRequest is not a function</message>
+                <stack-trace>TypeError: browser.postRequest is not a function
+                    at Context.&lt;anonymous> (/Users/akshay/Desktop/webdio/test/12-intercept/inter.spec.js:15:37)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

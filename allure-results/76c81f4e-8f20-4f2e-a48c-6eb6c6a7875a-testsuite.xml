@@ -1,0 +1,77 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663833295398' stop='1663833299052'>
+    <name>handeling alerts in js</name>
+    <title>handeling alerts in js</title>
+    <test-cases>
+        <test-case start='1663833295398' status='broken' stop='1663833299052'>
+            <name>cancel the alert</name>
+            <title>cancel the alert</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1663833295399' status='passed' stop='1663833298796'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='f56d3f33-da01-4aae-85b3-ba79de2314c7-attachment.json' type='application/json' size='67'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663833298797' status='passed' stop='1663833298805'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a366609a-be5b-46a7-b0ba-ca0ecfeff7bb-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='86c3d1f7-11f9-4114-a388-07a6cd51e132-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663833298808' status='passed' stop='1663833298812'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='2cc6ee89-0f51-4e94-87fd-1c7feff905a0-attachment.json' type='application/json' size='8331'/>
+                        <attachment title='Response' source='9ef7250e-242b-45c8-ae10-0bd7b982da66-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663833298812' status='passed' stop='1663833298816'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='189fa9df-f9fd-42d0-b9c6-383c4366c498-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='f87b94ce-245c-491b-a492-0d71d8ae0db9-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663833298817' status='passed' stop='1663833298840'>
+                    <name>POST /session/:sessionId/element/16345f93-9b39-47fb-ba0a-4290bf7eb7f4/click</name>
+                    <title>POST /session/:sessionId/element/16345f93-9b39-47fb-ba0a-4290bf7eb7f4/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663833298840' status='passed' stop='1663833299051'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='25c2fa30-5f25-4c40-9223-a1c8be22bb2c-attachment.png' type='image/png' size='123918'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.dismissAlerat is not a function</message>
+                <stack-trace>TypeError: browser.dismissAlerat is not a function
+                    at Context.&lt;anonymous> (/Users/akshay/Desktop/webdio/test/09-Alerts/alert.spec.js:24:23)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

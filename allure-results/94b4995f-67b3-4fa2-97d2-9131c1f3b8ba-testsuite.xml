@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664182980100' stop='1664182982586'>
+    <name>amazon</name>
+    <title>amazon</title>
+    <test-cases>
+        <test-case start='1664182980100' status='broken' stop='1664182982586'>
+            <name>amazon</name>
+            <title>amazon</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1664182980101' status='passed' stop='1664182982044'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='57eb8236-79b5-440c-b828-c087402f557d-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664182982045' status='passed' stop='1664182982054'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c37708e9-3478-4e01-bfcd-8ad8a5bcc495-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='e4da6056-012e-4cf3-9686-b802381a6cd3-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664182982057' status='passed' stop='1664182982071'>
+                    <name>POST /session/:sessionId/element/3db53fd5-ac3a-4fc1-9df6-1ef6bc118f64/clear</name>
+                    <title>POST /session/:sessionId/element/3db53fd5-ac3a-4fc1-9df6-1ef6bc118f64/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664182982072' status='passed' stop='1664182982148'>
+                    <name>POST /session/:sessionId/element/3db53fd5-ac3a-4fc1-9df6-1ef6bc118f64/value</name>
+                    <title>POST /session/:sessionId/element/3db53fd5-ac3a-4fc1-9df6-1ef6bc118f64/value</title>
+                    <attachments>
+                        <attachment title='Request' source='0c6e469b-d539-4153-a350-a7aa0b1f03eb-attachment.json' type='application/json' size='22'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664182982149' status='passed' stop='1664182982157'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='eb5c6f6b-dbdf-4467-a7ed-daa2492ed478-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='de344365-b400-4c8f-94e9-9a5d2a9dc224-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664182982159' status='passed' stop='1664182982586'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b4d43149-ecb7-4aa1-9803-f684ef0f92af-attachment.png' type='image/png' size='1175234'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'click')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'click')
+                    at Context.&lt;anonymous> (/Users/akshay/Desktop/webdio/test/03-AmazonProduct/sample.spec.js:17:23)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

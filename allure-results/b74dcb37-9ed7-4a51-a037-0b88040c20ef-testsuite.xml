@@ -1,0 +1,92 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664185046785' stop='1664185049969'>
+    <name>amazon</name>
+    <title>amazon</title>
+    <test-cases>
+        <test-case start='1664185046786' status='broken' stop='1664185049969'>
+            <name>amazon</name>
+            <title>amazon</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1664185046786' status='passed' stop='1664185049460'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='a21f1a72-9e76-4041-9555-699cb4471ebf-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664185049461' status='passed' stop='1664185049469'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='dc26815b-dd49-4190-8fe6-0c4e061a7933-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='2df51f43-1174-45da-9c14-1c97b7259ba0-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664185049472' status='passed' stop='1664185049492'>
+                    <name>POST /session/:sessionId/element/e581d348-515e-4b42-ab15-32563328406a/clear</name>
+                    <title>POST /session/:sessionId/element/e581d348-515e-4b42-ab15-32563328406a/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664185049493' status='passed' stop='1664185049561'>
+                    <name>POST /session/:sessionId/element/e581d348-515e-4b42-ab15-32563328406a/value</name>
+                    <title>POST /session/:sessionId/element/e581d348-515e-4b42-ab15-32563328406a/value</title>
+                    <attachments>
+                        <attachment title='Request' source='8dc5d1ae-a744-4cde-8a5a-acfb798349ea-attachment.json' type='application/json' size='22'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664185049561' status='passed' stop='1664185049572'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='88efc923-65a6-452f-896f-2a3dfbaf8a29-attachment.json' type='application/json' size='75'/>
+                        <attachment title='Response' source='b408012d-9b67-4989-be98-55aebf14c913-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664185049574' status='passed' stop='1664185049969'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='2e1fad8d-7062-4538-b9ff-80a4cd7854ab-attachment.png' type='image/png' size='1211737'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Wrong parameters applied for findElement
+                Usage: findElement(using, value)
+                
+                Property Description:
+                  "using" (string): a valid element location strategy
+                  "value" (string): the actual selector that will be used to find an element
+                
+                For more info see https://w3c.github.io/webdriver/#dfn-find-element
+                </message>
+                <stack-trace>Error: Wrong parameters applied for findElement
+                Usage: findElement(using, value)
+                
+                Property Description:
+                  "using" (string): a valid element location strategy
+                  "value" (string): the actual selector that will be used to find an element
+                
+                For more info see https://w3c.github.io/webdriver/#dfn-find-element
+                
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (/Users/akshay/Desktop/webdio/test/03-AmazonProduct/sample.spec.js:6:22)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,72 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664443941681' stop='1664443946461'>
+    <name>shadow DOM</name>
+    <title>shadow DOM</title>
+    <test-cases>
+        <test-case start='1664443941681' status='broken' stop='1664443946461'>
+            <name>nested shadow</name>
+            <title>nested shadow</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.61'/>
+            </parameters>
+            <steps>
+                <step start='1664443941682' status='passed' stop='1664443944037'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='9d03584c-af8a-4a05-bd5f-b32d9557b687-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664443946041' status='passed' stop='1664443946066'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5bb00762-681f-4382-aa77-434d529628b6-attachment.json' type='application/json' size='52'/>
+                        <attachment title='Response' source='952356b5-0de8-42cb-aaf5-a90c933178bf-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664443946071' status='passed' stop='1664443946083'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='48241e28-fa17-4784-b6d4-4807cc81255f-attachment.json' type='application/json' size='552'/>
+                        <attachment title='Response' source='54e08776-7871-45e9-97e0-c18c2dc371ef-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664443946085' status='broken' stop='1664443946460'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='c4c171ec-811b-477c-bc40-991658785e2c-attachment.json' type='application/json' size='610'/>
+                    </attachments>
+                    <steps>
+                        <step start='1664443946102' status='passed' stop='1664443946460'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='c6bdc062-4309-42e1-9ded-16b93f6f2908-attachment.png' type='image/png' size='1176651'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid element state: Failed to execute 'querySelector' on 'DocumentFragment': '//a[@aria-label="Mens T-Shirts Shop Now"]' is not a valid selector.
+                  (Session info: chrome=106.0.5249.61)</message>
+                <stack-trace>invalid element state: invalid element state: Failed to execute 'querySelector' on 'DocumentFragment': '//a[@aria-label="Mens T-Shirts Shop Now"]' is not a valid selector.
+                  (Session info: chrome=106.0.5249.61)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

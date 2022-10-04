@@ -1,0 +1,87 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663837322749' stop='1663837327338'>
+    <name>handeling alerts in js</name>
+    <title>handeling alerts in js</title>
+    <test-cases>
+        <test-case start='1663837322749' status='failed' stop='1663837327338'>
+            <name>prompt cancel in the alert</name>
+            <title>prompt cancel in the alert</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1663837322750' status='passed' stop='1663837326990'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b1498240-6ca3-45df-81da-8d3a7f3dd128-attachment.json' type='application/json' size='67'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663837326991' status='passed' stop='1663837326999'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3a01acc8-279a-472e-b6af-8943a5d77030-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='b12c8725-8a15-4e61-8eda-2177ef7aa188-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663837327002' status='passed' stop='1663837327006'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='92caac6e-54fd-4b2f-ad53-40724127a790-attachment.json' type='application/json' size='8331'/>
+                        <attachment title='Response' source='781b9ce6-6c4d-40cd-879b-e55f5690eaed-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663837327007' status='passed' stop='1663837327010'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='cd537407-8d8f-4bc7-9ccc-aea10b5f49fa-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='0cc0589d-c748-4a38-ada3-7c8b0216d77e-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663837327012' status='passed' stop='1663837327064'>
+                    <name>POST /session/:sessionId/element/667d4ca1-c04a-42f7-b64c-8818db539d42/click</name>
+                    <title>POST /session/:sessionId/element/667d4ca1-c04a-42f7-b64c-8818db539d42/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663837327064' status='passed' stop='1663837327337'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a8685591-7686-4521-8e81-b66be611a92d-attachment.png' type='image/png' size='118656'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Malformed type for "text" parameter of command sendAlertText
+                Expected: string
+                Actual: null
+                
+                For more info see https://w3c.github.io/webdriver/#dfn-send-alert-text
+                </message>
+                <stack-trace>Error: Malformed type for "text" parameter of command sendAlertText
+                Expected: string
+                Actual: null
+                
+                For more info see https://w3c.github.io/webdriver/#dfn-send-alert-text
+                
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (/Users/akshay/Desktop/webdio/test/09-Alerts/alert.spec.js:62:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

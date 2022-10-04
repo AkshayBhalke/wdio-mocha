@@ -1,0 +1,75 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664183007036' stop='1664183009601'>
+    <name>amazon</name>
+    <title>amazon</title>
+    <test-cases>
+        <test-case start='1664183007037' status='broken' stop='1664183009600'>
+            <name>amazon</name>
+            <title>amazon</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1664183007037' status='passed' stop='1664183009105'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='f06d7482-93ab-4e48-9f88-bbc06295c7df-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664183009106' status='passed' stop='1664183009115'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='62c6dd1d-1968-4757-84ad-caebd9120aa1-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='1c98b3df-372d-43e4-a889-0da236f04f75-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664183009118' status='passed' stop='1664183009130'>
+                    <name>POST /session/:sessionId/element/791642bc-127b-452f-8654-e36ad2a644b6/clear</name>
+                    <title>POST /session/:sessionId/element/791642bc-127b-452f-8654-e36ad2a644b6/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664183009131' status='passed' stop='1664183009189'>
+                    <name>POST /session/:sessionId/element/791642bc-127b-452f-8654-e36ad2a644b6/value</name>
+                    <title>POST /session/:sessionId/element/791642bc-127b-452f-8654-e36ad2a644b6/value</title>
+                    <attachments>
+                        <attachment title='Request' source='91e4adca-54fc-4ec6-8c00-009d2e492162-attachment.json' type='application/json' size='22'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664183009190' status='passed' stop='1664183009196'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='03771923-a06b-498b-ad5b-afb1a28b9af0-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='56d41e98-7633-4482-afef-1b9d67d44d08-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664183009197' status='passed' stop='1664183009600'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='36129f82-b84f-4f48-9f63-0e75d7b71715-attachment.png' type='image/png' size='1309709'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Element could not be found</message>
+                <stack-trace>Error: Element could not be found
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

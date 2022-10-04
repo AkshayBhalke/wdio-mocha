@@ -1,0 +1,93 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664189015088' stop='1664189017663'>
+    <name>wdio commands</name>
+    <title>wdio commands</title>
+    <test-cases>
+        <test-case start='1664189015088' status='pending' stop='1664189015088'>
+            <name>commands in wdio</name>
+            <title>commands in wdio</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1664189015088' status='broken' stop='1664189017662'>
+            <name>triger enter button</name>
+            <title>triger enter button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.125'/>
+            </parameters>
+            <steps>
+                <step start='1664189015089' status='passed' stop='1664189017233'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='1b04cd7b-1c44-4839-becc-8be800567803-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664189017234' status='passed' stop='1664189017243'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='65f5a045-dd3c-4b33-8977-72ca85efc958-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='e43b9765-3d71-4c3a-bf65-b570c963267b-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664189017246' status='passed' stop='1664189017260'>
+                    <name>POST /session/:sessionId/element/63ad2381-0f4a-494f-a8b9-ac1fd7df74f1/clear</name>
+                    <title>POST /session/:sessionId/element/63ad2381-0f4a-494f-a8b9-ac1fd7df74f1/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664189017261' status='passed' stop='1664189017312'>
+                    <name>POST /session/:sessionId/element/63ad2381-0f4a-494f-a8b9-ac1fd7df74f1/value</name>
+                    <title>POST /session/:sessionId/element/63ad2381-0f4a-494f-a8b9-ac1fd7df74f1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='426853eb-f0ff-4dae-b28e-bcc2d7bc4ba3-attachment.json' type='application/json' size='22'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664189017312' status='broken' stop='1664189017662'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664189017313' status='passed' stop='1664189017662'>
+                            <name>POST /session/:sessionId/actions</name>
+                            <title>POST /session/:sessionId/actions</title>
+                            <attachments>
+                                <attachment title='Request' source='99d22ea6-1944-4df6-b231-3568142ab1f7-attachment.json' type='application/json' size='393'/>
+                                <attachment title='Screenshot' source='ae608b21-71a0-4383-b09c-a3f18d6998f7-attachment.png' type='image/png' size='1331115'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664189017662' status='undefined'>
+                    <name>DELETE /session/:sessionId/actions</name>
+                    <title>DELETE /session/:sessionId/actions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.keys(...).setValue is not a function</message>
+                <stack-trace>TypeError: browser.keys(...).setValue is not a function
+                    at Context.&lt;anonymous> (/Users/akshay/Desktop/webdio/test/11-allCommand/commands.spec.js:20:39)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
