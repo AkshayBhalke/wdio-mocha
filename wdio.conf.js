@@ -30,7 +30,7 @@ exports.config = {
   // will be called from there.
   //
   // specs: ["./test/**/**/*.js"],
-  specs: ["./test/**/**/commands.spec.js"],
+  specs: ["./test/**/**/orange.spec.js"],
   // Patterns to exclude.
   exclude: [
     // 'path/to/excluded/files'
